@@ -1,10 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-  <div> hi  </div>    
-    );
+    <div>
+      <div>hi</div> 
+      <a href='/feed'>Navigate me to feed.</a> 
+    </div>
+  );
 }
 
 export default App;
