@@ -7,6 +7,7 @@ function App() {
       <a href='/feed'>Navigate me to feed.</a> 
     </div>
   );
+  return (<div>hello</div> );
 }
 
 export default App;
