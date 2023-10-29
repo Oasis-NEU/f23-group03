@@ -1,6 +1,14 @@
+
 function Profile() {
     return (
-        <p>This is the profile page.</p>
+        <p>
+            <h1> Name </h1>
+            <div> Horoscope: </div>
+            <div> MBTI: </div>
+            <div> Enneagram: </div>
+
+            </p>
+            
     )
 }
 
