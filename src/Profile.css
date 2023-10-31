@@ -1,14 +1,78 @@
+
+.topnav {
+  align-items: center;
+  position: absolute;
+  top: 50px;
+  overflow: hidden;
+}
+
+.topnav a{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  color: rgb(255, 182, 242);
+}
+
 body {
-    background-color: lightblue;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 300% 300%;
+  background-image: linear-gradient(-45deg, rgb(144, 30, 128) 0%, rgb(173, 25, 236) 25%, rgb(246, 32, 182) 51%, #842c9c 100%);
+  -webkit-animation: AnimateBG 20s ease infinite;
+          animation: AnimateBG 20s ease infinite;
+  text-align: center;
+  padding: 2em;
+    
   }
   
   h1 {
     color: white;
     text-align: center;
   }
-  
-  p {
-    font-family: verdana;
-    font-size: 20px;
+  img{
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 50%;
   }
   
+  p {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+  }
+
+  @-webkit-keyframes AnimateBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @keyframes AnimateBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
