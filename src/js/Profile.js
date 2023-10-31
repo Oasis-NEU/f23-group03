@@ -1,5 +1,5 @@
-import './Profile.css';
-import defaultPFP from './defaultPFP.jpg';
+import '../css/Profile.css';
+import defaultPFP from '../defaultPFP.jpg';
 function Profile() {
 
     return (

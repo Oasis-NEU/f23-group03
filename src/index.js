@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import Feed from './Feed';
-import Profile from './Profile';
-import DetailCard from './DetailCard';
+import './css/index.css';
+import App from './js/App';
+import Feed from './js/Feed';
+import Profile from './js/Profile';
+import DetailCard from './js/DetailCard';
 
 
-import reportWebVitals from './reportWebVitals';
+import reportWebVitals from './js/reportWebVitals';
 import {
   createBrowserRouter,
   RouterProvider,
