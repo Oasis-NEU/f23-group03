@@ -12,6 +12,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Settings from './js/Settings';
 
 const router = createBrowserRouter([
   {
@@ -33,9 +34,13 @@ const router = createBrowserRouter([
   {
     path: "/profilecreation",
     element: <ProfileCreation/>
+  },
+  {
+    path: "/settings",
+    element: <Settings/>,
   }
   
-  
+
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
