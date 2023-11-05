@@ -74,7 +74,7 @@ export default function Form({
         ></textarea>
         <br />
 
-        <input type="submit" value="Generate!" />
+        <input type="submit" value="Save" />
       </form>
     </div>
   );
