@@ -5,7 +5,7 @@ import App from './js/App';
 import Feed from './js/Feed';
 import Profile from './js/Profile';
 import DetailCard from './js/DetailCard';
-
+import ProfileCreation from './js/ProfileCreation';
 
 import reportWebVitals from './js/reportWebVitals';
 import {
@@ -29,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: "/detailcard",
     element: <DetailCard/>,
+  },
+  {
+    path: "/profilecreation",
+    element: <ProfileCreation/>
   }
   
   
