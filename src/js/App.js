@@ -7,7 +7,6 @@ function App() {
       <a href='/feed'>Navigate me to feed.</a> 
       <div> <a href='/profile'>Navigate me to profile.</a>  </div>
       <div> <a href='/settings'>Navigate me to settings.</a> </div>
-      <a href='/detailcard'>Learn more about my personality!</a> 
     </div>
   );
 }
