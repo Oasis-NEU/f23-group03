@@ -17,7 +17,7 @@ export default function Output({ photo, name, mbti, enne }) {
           </b>
         </p>
         <p>
-          <b>Enne:</b>
+          <b>Enneagram:</b>
           <br /> {enne ?? "error"}
         </p>
       </div>

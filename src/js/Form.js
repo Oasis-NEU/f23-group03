@@ -60,7 +60,7 @@ export default function Form({
         <br />
 
         <label htmlFor="form-enne" style={{ verticalAlign: "top" }}>
-          Fun Fact:{" "}
+          Enneagram:{" "}
         </label>
         {/* <br /> */}
         <textarea
