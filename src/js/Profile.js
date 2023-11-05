@@ -5,7 +5,8 @@ function Profile() {
     return (
         <div>
             <div class="topnav">
-                <a href='/'>Home</a>
+                <a href='/home'>Home</a>
+                <a href='/feed'>Feed</a>
                 <a href='/detailcard'>Personalities</a>
                 <a class='active' href='/profile'>Profile</a>                  
             </div>
