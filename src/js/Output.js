@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Output({ photo, name, title, fact }) {
+export default function Output({ photo, name, mbti, enne }) {
   return (
     <div className="output">
       <div className="column">
@@ -13,12 +13,12 @@ export default function Output({ photo, name, title, fact }) {
         </h1>
         <p>
           <b>
-            <i>{title ?? "error"}</i>
+            <i>{mbti ?? "error"}</i>
           </b>
         </p>
         <p>
-          <b>Fun Fact:</b>
-          <br /> {fact ?? "error"}
+          <b>Enne:</b>
+          <br /> {enne ?? "error"}
         </p>
       </div>
     </div>

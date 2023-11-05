@@ -25,7 +25,7 @@ function Settings() {
             <Output name={name} mbti={mbti} enne={enne} photo={photo} />
         </div>
         // <p>This is the edit profile/settings page.</p>
-    );
+    )
 }
 
 export default Settings
