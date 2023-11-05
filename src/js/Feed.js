@@ -1,9 +1,22 @@
+import '../css/Feed.css';
+import defaultPFP from '../defaultPFP.jpg';
 function Feed() {
     return (
-        <p>This is the feed page hehe </p>
+        <div>
+            <div class="topnav">
+                <a class='active' href ='/>feed'>Home</a>
+                <a href='/detailcard'>Personalities</a>
+                <a href='/profile'>Profile</a>                  
+            </div>
+            
+            
+            </div>
+           
     )
 }
 
-export default Feed
+   
     
 
+    export default Feed
+    
